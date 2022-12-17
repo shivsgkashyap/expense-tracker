@@ -150,3 +150,32 @@ input[type="number"] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #333;
+  color: #eee;
+}
+
+.footer-tag {
+  position: relative;
+  top: 0.2rem;
+  margin-left: 0.5rem;
+  color: #eee;
+  font-size: 1.2rem;
+}
+
+.footer-tag:hover {
+  color: #ccc;
+}
+
+.footer-tag:active {
+  color: #aaa;
+}
