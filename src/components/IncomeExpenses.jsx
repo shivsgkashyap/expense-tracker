@@ -17,7 +17,7 @@ const IncomeExpenses = () => {
   ).toFixed(2);
 
   return (
-    <div className="inc-exp-container">
+    <section className="inc-exp-container">
       <div>
         <h4>Income</h4>
         <p id="money-plus" className="money plus">
@@ -30,7 +30,7 @@ const IncomeExpenses = () => {
           £{expense}
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
