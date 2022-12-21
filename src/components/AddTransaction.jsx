@@ -31,20 +31,20 @@ const AddTransaction = () => {
       <h3>Add new transaction</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">Transaction details:</label>
           <input
             type="text"
             id="text"
             value={text}
             onChange={updateText}
-            placeholder="Enter text..."
+            placeholder="Please enter details..."
           />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">
-            Amount <br />
-            (negative - expense, positive - income)
-          </label>
+          <label htmlFor="amount">Amount:</label>
+          <p class="amount-label">
+            (enter negative value for expense and positive for income)
+          </p>
           <input
             type="number"
             id="amount"
