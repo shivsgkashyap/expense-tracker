@@ -1,6 +1,6 @@
 # Expense Tracker
 
-Keep track of income and expenses. Add and remove items and save to local storage. Created with React using functional components with hooks and the context API. Please note this repo is for front end only, please see my [OTHER REPO](https://shivsgkashyap.github.io/expense-tracker-mern/) for the full stack version.
+Keep track of income and expenses. Add and remove items and save to local storage. Created with React using functional components with hooks and the context API. Please note this repo is for front end only, please see my [OTHER REPO](https://github.com/shivsgkashyap/expense-tracker-mern) for the full stack version.
 
 [Live Demo](https://shivsgkashyap.github.io/expense-tracker/) :point_left:
 
